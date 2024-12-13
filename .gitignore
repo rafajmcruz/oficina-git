@@ -1,0 +1,30 @@
+
+# Lista com todos os arquivos e pastas que devem ser ignorados pelo git 
+# Os arquivos listados aqui NÃO são rastreados e NÃO são enviados para o repositório remoto
+
+# Ex: Pastas com dependências
+node_modules/
+vendor/
+
+# Ex: Arquivos temporários ou de cache
+__pycache__/
+temp/
+
+# Ex: Arquivos de Build
+dist/
+target/
+
+# Ex: Arquivos de Configurações de IDEs e outras ferramentas
+.idea/
+.vscode/
+
+# Ex: Arquivos com informações sensíveis
+.env
+
+# Ex: Arquivos de log locais
+.log
+
+# E quaisquer outros arquivos que não sejam necessários para que seu projeto seja instalado 
+# e funcione em outra máquina
+
+# Ver templates de .gitignore em: https://github.com/github/gitignore 
