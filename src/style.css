@@ -47,6 +47,9 @@ a:hover {
     text-decoration: none;
 }
 
+li {
+    margin-bottom: 1rem;
+}
 
 .main-app {
     background-color: var(--secondary);
@@ -59,7 +62,7 @@ a:hover {
 }
 
 main {
-    width: 60%;
+    width: 50%;
     flex-grow: 1;
     margin-top: 1rem;
 }
@@ -76,3 +79,4 @@ footer {
     color: var(--primary);
     opacity: 80%;
 }
+
