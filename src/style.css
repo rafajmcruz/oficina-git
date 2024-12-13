@@ -64,6 +64,10 @@ main {
     margin-top: 1rem;
 }
 
+h1 {
+    font-size: 1.8em;
+}
+
 footer {
     border-top: 2px solid rgb(255, 212, 212);
     padding: 1rem;
